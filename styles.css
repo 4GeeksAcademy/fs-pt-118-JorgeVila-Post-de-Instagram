@@ -1,0 +1,49 @@
+body{
+width: 100%;
+background-color: aqua;
+
+}
+header{
+background-color:orange;
+width: 100%;
+}
+h1{
+     text-align: center;
+}
+
+main{
+    background-color: chartreuse;
+    width: 100%;
+}
+
+.post{
+    background-color: azure;
+    width: 50rem;
+    margin: auto;
+    border: solid 0.2rem black;
+    border-radius: 0.5rem;
+}
+.post-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+    
+
+
+ .post-image img{
+    width: 50rem;
+}
+
+.post-icons{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.post-icons-left span{
+    margin: 0.2rem  1rem;
+}
+.post-icons-right span{
+    margin: 0.2rem  1rem;
+}

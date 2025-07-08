@@ -1,49 +1,81 @@
-body{
-width: 100%;
-background-color: aqua;
+body {
+    width: 100%;
+    background-color: rgb(236, 111, 111);
 
 }
-header{
-background-color:orange;
-width: 100%;
-}
-h1{
-     text-align: center;
-}
 
-main{
-    background-color: chartreuse;
+header {
+    background-color: orange;
     width: 100%;
 }
 
-.post{
+h1 {
+    text-align: center;
+}
+
+main {
+    background-color: rgb(236, 111, 111);
+    width: 100%;
+}
+
+.post {
     background-color: azure;
     width: 50rem;
     margin: 2rem auto;
     border: solid 0.2rem black;
     border-radius: 0.5rem;
 }
-.post-header{
+
+.post-header {
     display: flex;
     justify-content: space-between;
+    align-items: center
 }
 
-    
+.post-header-left {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
 
+.icono-html {
+    font-size: 2rem;
+    padding-right: 2rem;
 
- .post-image img{
+}
+
+.icon-3dots {
+    font-size: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+.post-image img {
     width: 50rem;
 }
 
-.post-icons{
+.post-icons {
     display: flex;
     justify-content: space-between;
 
 }
 
-.post-icons-left span{
-    margin: 0.2rem  1rem;
+.post-icons-left span {
+    margin: 0.2rem 1rem;
 }
-.post-icons-right span{
-    margin: 0.2rem  1rem;
+
+.post-icons-right span {
+    margin: 0.2rem 1rem;
+}
+
+.post-textos {
+    padding: 0 3.5rem;
+}
+
+footer {
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(123, 111, 236);
+    margin: auto;
+    width: auto;
 }
